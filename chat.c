@@ -12,3 +12,7 @@
 
 //Incluindo biblioteca personalizada para o programa
 #include "bibliotecaChat.h"
+
+int main (int argc, char **argv){
+	return 0;
+}

@@ -10,6 +10,6 @@ bibliotecaChat.o: bibliotecaChat.c
 	gcc -o bibliotecaChat.o -c bibliotecaChat.c
 
 clear:
-	rm chat.c
+	rm chat
 	rm chat.o
 	rm bibliotecaChat.o
