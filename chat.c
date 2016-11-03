@@ -9,3 +9,6 @@
 /*          2013066184			*/
 /*								*/
 /********************************/
+
+//Incluindo biblioteca personalizada para o programa
+#include "bibliotecaChat.h"

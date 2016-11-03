@@ -1,24 +1,15 @@
-all: cliente servidor
+all: chat
 
-cliente: cliente.o biblioteca.o
-	gcc -o cliente cliente.o biblioteca.o
+chat: chat.o bibliotecaChat.o
+	gcc -o chat chat.o bibliotecaChat.o
 
-cliente.o: cliente.c
-	gcc -c cliente.c
+chat.o: chat.c
+	gcc -c chat.c
 
-servidor: servidor.o biblioteca.o
-	gcc -o servidor servidor.o biblioteca.o
-
-servidor.o: servidor.c	
-	gcc -c servidor.c
-
-biblioteca.o: biblioteca.c
-	gcc -o biblioteca.o -c biblioteca.c
-
+bibliotecaChat.o: bibliotecaChat.c
+	gcc -o bibliotecaChat.o -c bibliotecaChat.c
 
 clear:
-	rm cliente
-	rm cliente.o
-	rm servidor
-	rm servidor.o
-	rm biblioteca.o
+	rm chat.c
+	rm chat.o
+	rm bibliotecaChat.o
