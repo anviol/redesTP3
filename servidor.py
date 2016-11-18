@@ -1,7 +1,7 @@
 import socket
 import sys
 
-HOST = ''              # Endereco IP do Servidor
+HOST = '::1'              # Endereco IP do Servidor
 PORT = 5000            # Porta que o Servidor esta
 
 tcp = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)
