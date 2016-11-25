@@ -26,7 +26,7 @@ print 'Para sair use CTRL+C\n'
 
 msg = raw_input()
 
-# Loop ate que o usuario digite ctro + X teste
+# Loop ate que o usuario digite ctro + X
 while msg <> '\x18':
 	tcp.send (msg)
 	msg = raw_input()
