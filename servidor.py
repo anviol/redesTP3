@@ -1,10 +1,10 @@
 import socket
 import sys
 
-HOST = '127.0.0.1'      # Endereco IP do Servidor
+HOST = '::1'      # Endereco IP do Servidor
 PORT = 51511            # Porta que o Servidor esta
 
-tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+tcp = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)
 
 orig = (HOST, PORT)
 tcp.bind(orig)
